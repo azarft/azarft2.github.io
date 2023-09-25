@@ -1,3 +1,51 @@
+header {
+    border: 2px solid black; 
+    margin : auto;
+    width: 600px; 
+    padding: auto; 
+    background-color: #995900; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    padding: 20px;
+    margin: auto;
+    display: flex; /* Make the header a flex container */
+    justify-content: space-between; /* Space elements horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+#picture img {
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    margin-right: 10px; /* Add margin to separate the logo from the navbar */
+}
+
+#kesha {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the navbar a flex container */
+}
+
+#navbar ul li  {
+    margin-right: 20px; /* Add margin between navbar items */
+}
+
+#navbar ul li:last-child  {
+    margin-right: 0; /* Remove margin from the last navbar item */
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff; /* Change link color to your preference */
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    color: #ffd001; /* Change link color to your preference */
+}
+
 html { 
     background-color: #00539F; 
 } 
@@ -9,16 +57,19 @@ h1 {
     text-shadow: 3px 3px 1px black; 
 } 
  
-body { 
+main { 
     margin : auto;
     width: 600px; 
     padding: auto; 
     background-color: #ff9500; 
     padding: 0 20px 20px 20px; 
-    border: 5px solid black; 
+    border: 2px solid black; 
 }
-
-img {
+iframe {
+    display: block;
+    margin: auto;
+}
+#mainimage {
     width: 200px;
     display : block;
     margin : auto;

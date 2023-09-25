@@ -1,4 +1,4 @@
-const image = document.querySelector("img");
+const image = document.getElementById("mainimage");
 
 image.addEventListener("click", function() {
   if (image.src.endsWith("image/logo.png")) {
