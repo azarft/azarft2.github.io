@@ -1,15 +1,15 @@
 header {
     border: 2px solid black; 
     margin : auto;
-    width: 600px; 
+    width: 1000px; 
     padding: auto; 
-    background-color: #995900; /* Change the background color to your preference */
-    color: #fff; /* Change the text color to your preference */
+    background-color: #995900;
+    color: #fff;
     padding: 20px;
     margin: auto;
-    display: flex; /* Make the header a flex container */
-    justify-content: space-between; /* Space elements horizontally */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
 #picture img {
@@ -18,32 +18,32 @@ header {
 }
 
 #logo {
-    margin-right: 10px; /* Add margin to separate the logo from the navbar */
+    margin-right: 10px; 
 }
 
 #kesha {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Make the navbar a flex container */
+    display: flex; 
 }
 
 #navbar ul li  {
-    margin-right: 20px; /* Add margin between navbar items */
+    margin-right: 20px; 
 }
 
 #navbar ul li:last-child  {
-    margin-right: 0; /* Remove margin from the last navbar item */
+    margin-right: 0; 
 }
 
 #navbar ul li a {
     text-decoration: none;
-    color: #fff; /* Change link color to your preference */
+    color: #fff; 
 }
 
 #navbar ul li a:hover {
     text-decoration: none;
-    color: #ffd001; /* Change link color to your preference */
+    color: #ffd001; 
 }
 
 html { 
@@ -59,7 +59,7 @@ h1 {
  
 main { 
     margin : auto;
-    width: 600px; 
+    width: 1000px; 
     padding: auto; 
     background-color: #ff9500; 
     padding: 0 20px 20px 20px; 
